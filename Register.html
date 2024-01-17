@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="conatiner">
+<form class="row g-3 needs-validation" novalidate>
+  <div class="col-md-6" style="margin-left: 500px;">
+    <label for="validationCustom01" class="form-label">Name</label>
+    <input type="text" class="form-control" id="validationCustom01" required>
+  <div class="col-md-6" style="margin-right: 50px;">
+    <label for="validationCustom03" class="form-label" >Gender</label>
+<div class="form-check"style>
+    <input class="form-check-input" type="checkbox" value="gen" id="Gender" />
+    <label class="form-check-label" for="Male"> Male</label>
+</div>
+<div class="form-check">
+    <input
+        class="form-check-input"
+        type="checkbox"
+        value="gen"
+        id="Gender"
+        checked
+    />
+    <label class="form-check-label" for="Gender">Female</label>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom05" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="validationCustom05" required>
+    <div class="invalid-feedback">
+      Please provide a valid zip.
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <div class="text-center">
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Register Form</button>
+    </div>
+  </div>
+</form> 
+</div>   
+</body>
+</html>
